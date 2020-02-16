@@ -5,7 +5,7 @@ function myPadString(str, lengthStr, symbol, flag) {
     const symbol1 = symbol;
     if (str1.length >= lengthStr) {
         for (let i = 0; i < lengthStr; i++) {
-            resStr += str1;
+            resStr += str1[i];
         }
     } else if (str1.length < lengthStr) {
         for (let i = str1.length; i < lengthStr; i++) {
